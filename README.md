@@ -81,6 +81,9 @@ D E <BR>
 D G <BR>
 G F <BR>
 <hr>
+~~~
+wwss
+~~~
 <h3>Sample Output</h3>
 <hr>
 ['A', 'B', 'C', 'F', 'E', 'D', 'G']
