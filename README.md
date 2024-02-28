@@ -81,6 +81,7 @@ D E <BR>
 D G <BR>
 G F <BR>
 <hr>
+```
 from collections import deque
 from collections import defaultdict
 
@@ -99,7 +100,7 @@ C D
 D E 
 D G
 G F
-```
+
 def bfs(graph,start,visited,path):
     queue = deque()
     path.append(start)
