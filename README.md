@@ -82,24 +82,11 @@ D G <BR>
 G F <BR>
 <hr>
 ```
+```
 from collections import deque
 from collections import defaultdict
 
 
-
-V E
-FOR EVERY EDGE
-U V
-7 9
-A B
-A C 
-A F
-C E
-C F
-C D
-D E 
-D G
-G F
 
 def bfs(graph,start,visited,path):
     queue = deque()
@@ -127,6 +114,7 @@ path = []
 visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
+```
 ```
 <h3>Sample Output</h3>
 <hr>
