@@ -134,6 +134,10 @@ print(traversedpath)
 3 4 <BR>
 <hr>
 ```
+'''
+from collections import deque
+from collections import defaultdict
+
 def bfs(graph,start,visited,path):
     queue = deque()
     path.append(start)
