@@ -1,5 +1,5 @@
 <h1>ExpNo 3 : Implement Breadth First Search Traversal of a Graph</h1> 
-<h3>Name: P PARTHHIBAN</h3>
+<h3>Name: P PARTHIBAN</h3>
 <h3>Register Number: 212223230145</h3>
 <H3>Aim:</H3>
 <p>To Implement Breadth First Search Traversal of a Graph using Python 3.</p>
@@ -80,15 +80,27 @@ C D <BR>
 D E <BR>
 D G <BR>
 G F <BR>
-<hr>
 
-```
-'''
+~~~
 from collections import deque
 from collections import defaultdict
 
 
-
+'''
+V E
+FOR EVERY EDGE
+U V
+7 9
+A B
+A C 
+A F
+C E
+C F
+C D
+D E 
+D G
+G F
+'''
 def bfs(graph,start,visited,path):
     queue = deque()
     path.append(start)
@@ -115,16 +127,16 @@ path = []
 visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
-```
+~~~
 <h3>Sample Output</h3>
 <hr>
 ['A', 'B', 'C', 'F', 'E', 'D', 'G']
 
-<hr>
+
 
 <hr>
 <h3>Sample Input</h3>
-<hr>
+
 5 6 <BR>
 0 1 <BR>
 0 2 <BR>
@@ -132,12 +144,26 @@ print(traversedpath)
 1 3 <BR>
 2 4 <BR>
 3 4 <BR>
-<hr>
-```
-'''
+~~~
 from collections import deque
 from collections import defaultdict
 
+
+'''
+V E
+FOR EVERY EDGE
+U V
+7 9
+A B
+A C 
+A F
+C E
+C F
+C D
+D E 
+D G
+G F
+'''
 def bfs(graph,start,visited,path):
     queue = deque()
     path.append(start)
@@ -164,7 +190,7 @@ path = []
 visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
-```
+~~~
 <h3>Sample Output</h3>
 <hr>
 ['0', '1', '2', '3', '4']
@@ -172,6 +198,7 @@ print(traversedpath)
 <h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Breadth First Search for the same graph was done successfully.</p>
+
 
 
 
